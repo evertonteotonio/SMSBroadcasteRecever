@@ -62,7 +62,7 @@ class SMSBroadcastReceiver : BroadcastReceiver() {
 
     private fun showNotification(context: Context, numeroTelefone: String, mensagem: String) {
         val mBuilder = NotificationCompat.Builder(context)
-        mBuilder.setSmallIcon(R.mipmap.ic_launcher)
+        mBuilder.setSmallIcon(R.drawable.ic_support)
         mBuilder.setContentTitle("Mensagem de: " + numeroTelefone)
         mBuilder.setContentText(mensagem)
 
