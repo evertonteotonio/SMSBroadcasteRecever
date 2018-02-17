@@ -17,8 +17,6 @@ import android.widget.Toast
 
 class SMSBroadcastReceiver : BroadcastReceiver() {
 
-    //private val sms = SmsManager.getDefault()
-
     override fun onReceive(context: Context, intent: Intent) {
         val bundle = intent.extras
 

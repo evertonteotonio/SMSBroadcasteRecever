@@ -1,17 +1,4 @@
 package com.example.logonrm.smsbroadcasterecever
-/*
-import android.support.v7.app.AppCompatActivity
-import android.os.Bundle
-
-class MainActivity : AppCompatActivity() {
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-    }
-}
-*/
-
 
 import android.Manifest
 import android.content.BroadcastReceiver
@@ -31,11 +18,9 @@ class MainActivity : AppCompatActivity() {
 
     private var mReceiver: BroadcastReceiver? = null
 
-    //private var tvMessage: TextView? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        //tvMessage = findViewById(R.id.tvMessage) as TextView
 
         if (intent != null) {
             val i = intent
